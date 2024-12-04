@@ -3,9 +3,9 @@ from telethon.tl.functions.messages import GetDialogsRequest
 from telethon.tl.types import InputPeerEmpty
 import csv
 
-api_id = XXXXXX # Replace this with your own api_id
-api_hash = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX' # Replace this with your own api_hash
-phone = '+XXXXXXXXXXX' # Your phone number goes here with the area code and + 
+api_id = 27018501 # Replace this with your own 
+api_hash = '12a3f93b58ecaad3790cf872c7bfcd05' # Replace this with your own api_hash
+phone = '+905537162419' # Your phone number goes here with the area code and + 
 client = TelegramClient(phone, api_id, api_hash)
 
 client.connect()

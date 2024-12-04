@@ -17,7 +17,7 @@ if not client.is_user_authorized():
 chats = []
 last_date = None
 chunk_size = 200
-groups=[]
+groups=[@kraliyet01]
  
 result = client(GetDialogsRequest(
              offset_date=last_date,
